@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+/*---------------------------canvas*/
+#canvas1{
+  position: absolute;
+  border: 3px solid  white;
+  width: 800px;
+  height: 500px;
+  transform: translate(-50%);
+  top: 25%;
+  left: 50%;
+}
+.personagem {
+  background-image: url("personagem.png");
+  width: 100px;
+  height: 100px;
+}
