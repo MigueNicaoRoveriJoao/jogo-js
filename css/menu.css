@@ -5,17 +5,15 @@ body{
     justify-content: center;
     align-items: center;
 }
-.menu{
-    width: 180vh;
+.menu {
+    width: 180vw;
     height: 95vh;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: aqua;
-}
-
+    }
 
 .subtitulo {
     font-size: 50px;
@@ -36,3 +34,14 @@ body{
     margin-top: 50px;
     font-family: 'Share Tech', sans-serif;
 }
+
+
+/*
+    .div1 { grid-area: 1 / 1 / 5 / 12; }
+    .div2 { grid-area: 9 / 3 / 10 / 5; }
+    .div3 { grid-area: 9 / 7 / 10 / 9; }
+    .div4 { grid-area: 7 / 5 / 8 / 7; }
+    .div5 { grid-area: 7 / 8 / 8 / 10; }
+    .div6 { grid-area: 7 / 2 / 8 / 4; }
+    */
+    

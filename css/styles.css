@@ -19,3 +19,13 @@ body {
   height: 48px;
   background-color: aqua;
 }
+@font-face {
+  font-family: 'bitesco';
+  src: url('/Fontes/PixNull.ttf') format('truetype'); /* Substitua o caminho e o formato conforme necessário */
+
+  font-family: 'eightBit';
+  src: url('/Fontes/8-BIT\ WONDER.TTF') format('truetype');
+}
+.logo {
+  width: 300px;
+}
